@@ -8,9 +8,9 @@
     <style>
       h1 {
         font-size: 40px;
-        font-family: Roboto;
+        font-family: Bahnschrift;
         font-weight: bold;
-        color: rgb(30, 30, 200);
+        color: rgb(120, 120, 200);
         text-align: center;
       }
       #banner {
@@ -19,23 +19,50 @@
         object-fit: cover;
       }
       h2 {
-        font-family: Roboto;
+        font-family: Bahnschrift;
         font-size: 32px;
-        color: rgb(60, 60, 200);
+        color: rgb(160, 160, 200);
+        text-align: center;
+        font-weight: normal;
+      }
+      .bodytext {
+        font-family: Bahnschrift;
+        color: rgb(160, 160, 200);
+        text-align: center;
+      } 
+
+      #container {
+        max-width: 720px;
+        margin: 30 auto 30 auto;
+      }
+
+      #to-do {
+        font-family: Bahnschrift;
+        color: rgb(200, 50, 50);
+        text-align: center;
+      }
+      .copyright {
+        font-family: Bahnschrift;
+        color: rgb(160, 160, 200);
         text-align: center;
       }
     </style>
   </head>
   <body>
-    <h1>Something as LinkedIn but worse</h1>
-    <img id="banner" src="https://rafael-website-1--rafaelpetruy1.repl.co/static/banner.jpg">
-    <h2>About NotLinkedIn</h2>
-    <p>
-      Almost like LinkedIn, but worser, so; NotLinkedIn
-    </p>
-    <h2>Last Open Positions</h2>
-    <p>TO-DO show list of jobs here TO-DO</p>
-    <button>Wanna share a job? Feel free to contact us!</button>
+      <div id="container">
+      <h1>Something as LinkedIn but worse</h1>
+      <img id="banner" src="https://rafael-website-1--rafaelpetruy1.repl.co/static/banner.jpg">
+      <h2>About NotLinkedIn</h2>
+      <p class="bodytext">
+        Almost like LinkedIn, but worser, so; NotLinkedIn
+      </p>
+      <h2>Last Open Positions</h2>
+      <p id="to-do">TO-DO show list of jobs here TO-DO</p>
+          <div style="text-align: center;">
+          <button>Wanna share a job? Feel free to contact us!</button>
+            <p class="copyright">Copyright 2023, NotLinkedIn</p>
+          </div>
+        </div>
   </body>
 
 </html>
