@@ -2,67 +2,39 @@
 
 <html>
   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      #banner {
+        height: 360px;
+        width: 100%; 
+        }
+      }
+      
+    </style>
     <title>
       NotLinkedIn
     </title>
-    <style>
-      h1 {
-        font-size: 40px;
-        font-family: Bahnschrift;
-        font-weight: bold;
-        color: rgb(120, 120, 200);
-        text-align: center;
-      }
-      #banner {
-        width: 100%;
-        height: 360px;
-        object-fit: cover;
-      }
-      h2 {
-        font-family: Bahnschrift;
-        font-size: 32px;
-        color: rgb(160, 160, 200);
-        text-align: center;
-        font-weight: normal;
-      }
-      .bodytext {
-        font-family: Bahnschrift;
-        color: rgb(160, 160, 200);
-        text-align: center;
-      } 
-
-      #container {
-        max-width: 720px;
-        margin: 30 auto 30 auto;
-      }
-
-      #to-do {
-        font-family: Bahnschrift;
-        color: rgb(200, 50, 50);
-        text-align: center;
-      }
-      .copyright {
-        font-family: Bahnschrift;
-        color: rgb(160, 160, 200);
-        text-align: center;
-      }
-    </style>
+    
   </head>
+  
   <body>
-      <div id="container">
-      <h1>Something as LinkedIn but worse</h1>
-      <img id="banner" src="https://rafael-website-1--rafaelpetruy1.repl.co/static/banner.jpg">
-      <h2>About NotLinkedIn</h2>
-      <p class="bodytext">
+      <div class="container">
+      <h1 class = "text-center mt-3 mb-3">Something as LinkedIn but worse</h1>
+      <img id = "banner" src="https://rafael-website-1--rafaelpetruy1.repl.co/static/banner.jpg">
+      <h2 class = "text-center mb-3 mt-3">About NotLinkedIn</h2>
+      <p class = "text-center"  style = "font-size: 16px">
         Almost like LinkedIn, but worser, so; NotLinkedIn
       </p>
-      <h2>Last Open Positions</h2>
-      <p id="to-do">TO-DO show list of jobs here TO-DO</p>
-          <div style="text-align: center;">
-          <button>Wanna share a job? Feel free to contact us!</button>
-            <p class="copyright">Copyright 2023, NotLinkedIn</p>
+      <h2 class = "text-center">Last Open Positions</h2>
+      <p class = "text-center">TO-DO show list of jobs here TO-DO</p>
+          <div style = "text-align: center">
+           <button type="button" class="btn btn-outline-primary col-4 mx-auto">Contact us</button>
+            <p class = "text-center mt-2">Copyright 2023, NotLinkedIn</p>
           </div>
         </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 
 </html>
